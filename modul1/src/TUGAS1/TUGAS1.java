@@ -8,7 +8,7 @@ public class TUGAS1 {
         Scanner scanner = new Scanner(System.in);
 
         // Meminta pengguna untuk memasukkan jumlah angka yang akan diinput
-        System.out.print("Masukkan jumlah angka: ");
+        System.out.print("Masukkan angka: ");
         int n = scanner.nextInt();
 
         // Membuat array untuk menyimpan angka-angka yang diinput pengguna
@@ -20,7 +20,6 @@ public class TUGAS1 {
             System.out.print("Angka ke-" + (i + 1) + ": ");
             angka[i] = scanner.nextInt(); // Menyimpan angka ke dalam array
         }
-        //SAFA
 
         // Menghitung total dari semua angka
         int total = 0;
