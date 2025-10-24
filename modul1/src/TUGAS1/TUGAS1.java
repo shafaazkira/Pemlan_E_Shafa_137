@@ -20,6 +20,7 @@ public class TUGAS1 {
             System.out.print("Angka ke-" + (i + 1) + ": ");
             angka[i] = scanner.nextInt(); // Menyimpan angka ke dalam array
         }
+        //SAFA
 
         // Menghitung total dari semua angka
         int total = 0;
